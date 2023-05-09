@@ -1,0 +1,18 @@
+img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#today-goal {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
