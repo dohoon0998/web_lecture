@@ -1,12 +1,38 @@
-p {
-  border-radius: 50%;
+* {
+  box-sizing: border-box;
 }
+
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  border-radius: 3%;
+  background-color: rgb(168, 243, 69);
+  width: 400px;
+  padding: 5px 10px;
+  margin: 30px auto;
+}
+
 a {
   text-align: center;
   background-color: black;
+  font-size: 20px;
+  border-radius: 4%;
+  padding: 8px;
 }
 
 a:hover {
   text-decoration: underline;
   background-color: rgb(255, 0, 179);
+}
+
+/*
+  ol태그보다 li태그의 선택자가 우선시됨!
+*/
+
+li {
+  list-style-type: square;
+  list-style-type: none;
 }
