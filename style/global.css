@@ -1,5 +1,6 @@
 body {
   background-color: rgb(214, 190, 253);
+  position: relative;
 }
 h1,
 p {
