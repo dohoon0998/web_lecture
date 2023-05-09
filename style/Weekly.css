@@ -1,0 +1,12 @@
+p {
+  border-radius: 50%;
+}
+a {
+  text-align: center;
+  background-color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: rgb(255, 0, 179);
+}
