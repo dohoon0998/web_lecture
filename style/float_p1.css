@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin: 16px;
+}
+a {
+  padding: 16px 20px;
+  display: block;
+}
+ul::after {
+  content: "";
+  clear: left;
+  display: block;
+}
+
+.active {
+  border-bottom: 2px solid #f64997;
+}
+.active a {
+  font-weight: bold;
+  color: #f64997;
+}
